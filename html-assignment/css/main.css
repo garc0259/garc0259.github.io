@@ -27,7 +27,7 @@ h1, footer {
     list-style-type: square;
 }
 
-li:nth-child(odd) {
+h3 + .hobbies li:nth-child(odd) {
     background-color: aqua;
 }
 
