@@ -1,22 +1,20 @@
-* 
 
-{box-sizing: border-box;}
-  
   body {
     background-color: #aad4cf;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
+    box-sizing: border-box;
   }
-  
+
   .wrapper {
-    max-width: 1000px;
-    min-width: none;
-    margin: 0 auto;
+    max-width:1000px;
+
+    margin:0 auto;
   }
-  
+
   .menu ul {
-    padding: 0;
-    text-align: center; 
+    padding:0;
+    text-align:center; 
   }
 
    .menu li a:hover {
@@ -88,7 +86,7 @@
  input[type=text] {
     width: 965px;
   }
- input[type=message] {
+ input[id=message] {
     width: 965px;
     height: 100px;
   } 
