@@ -8,7 +8,6 @@
 
   .wrapper {
     max-width:1000px;
-
     margin:0 auto;
   }
 
@@ -76,9 +75,9 @@
   }
 
   .forms {
-    width: 1000px;
+    width: 990px;
     height: 400px;
-    padding: 15px;
+    padding-left: 15px;
     padding-top: 20px;
     border: 2px solid black;
   }
