@@ -1,0 +1,48 @@
+*
+
+.wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+header { 
+    background-color: #222;
+    padding: 10px
+}
+
+.bg-black{
+    width: 1000px;
+    height: 200px;
+    background: #c78c06;
+  }
+
+body {
+font-family: 'Open Sans', sans-serif;
+line-height: 1.4;
+margin: 0;
+}
+
+li {
+    padding: 14px 16px;
+    color: #c78c06;
+    font-size: 17px;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.container {
+
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 760px)
+
+
+    
+    /* #c78c06
+    #ffe6ac */
+
+  
