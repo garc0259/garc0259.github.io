@@ -4,7 +4,7 @@
     margin: 0;
   }
   
-  /* Google symbols */
+  /* Icon */
   
   .material-symbols-outlined {
     vertical-align: middle;
@@ -14,7 +14,7 @@
     font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
   }
   
-  /* General styling */
+  /* CSS */
   
   body {
     background-color: #fff;
@@ -70,9 +70,9 @@
     border: none;
   }
   
-  /* Reusable background colors */
+/* Background Colors */
   
-  .dark-bg {
+  .black-bg {
     background-color: #222;
   }
   
@@ -84,7 +84,7 @@
     background-color: #ffe6ac;
   }
   
-  /* Reusable containers */
+/* Containers */
   
   .wrapper {
     padding: 1rem 0.5rem
@@ -105,7 +105,7 @@
     padding-bottom: 0.5rem;
   }
   
-  /* Navigation section */
+/* Navigation */
   
   #menu img {
     display: flex;
@@ -161,7 +161,7 @@
     border: #c78b07 solid 1px;
   }
   
-  /* Hero section */
+/* Welcome */
   
   .hero {
     position: relative;
@@ -203,7 +203,7 @@
     width: 11rem;
   }
   
-  /* About us section */
+/* About Us */
   
   .intro-grid {
     display: grid;
@@ -216,7 +216,7 @@
     align-self: start;
   }
   
-  /* Article button styling */
+/* Buttons */
   
   .btn-article {
     display: block;
@@ -242,7 +242,7 @@
     width: 11rem;
   }
   
-  /* Services styling */
+/* Our Services */
   
   .services-grid {
     display: grid;
@@ -292,7 +292,7 @@
     width: 11rem;
   }
   
-  /* Contact Us styling */
+/* Contact Us */
   
   table {
     border-spacing: 0px;
@@ -327,7 +327,7 @@
     height: 400px;
   }
   
-  /* Footer Styling */
+/* Footer */
   
   footer {
     color: #c78b07;
@@ -339,7 +339,7 @@
   }
   
   
-  /* DESKTOP STYLING */
+/* MEDIA QUERY */
   
   @media screen and (min-width: 760px){
   
@@ -401,7 +401,7 @@
       width: 30%;
     }
   
-    /* Desktop hero styling */
+/* MQ Welcome */
   
     .hero {
       height: 29rem;
@@ -422,13 +422,13 @@
       width: 13rem;
     }
   
-    /* Desktop About Us styling */
+/* MQ About Us */
   
     .intro-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   
-    /* Desktop article button styling */
+/* MQ Buttons */
   
     .btn-article {
       font-size: 1.1rem;
@@ -441,7 +441,7 @@
       padding: 1.5rem;
     }
   
-    /* Desktop Vision styling */
+/* MQ Vision */
   
     #vision {
       height: 15rem; 
@@ -456,7 +456,7 @@
       padding: 1.5rem;
     }
   
-    /* Desktop Servicies styling */
+/* MQ Our Services */
     
     .services-grid {
       grid-template-columns: repeat(6, 1fr);
@@ -482,7 +482,6 @@
       grid-column: 5/7;
     }
   
-    /* Desktop team styling */
   
     .team {
       display: grid;
@@ -511,7 +510,7 @@
   
   
   
-    /* Desktop Contact us styling */
+/* MQ Contact Us */
   
     #contact-grid {
       display: grid;
@@ -548,4 +547,7 @@
   
   
   }
+
+
+  /* Check with CSS Validator */
   
